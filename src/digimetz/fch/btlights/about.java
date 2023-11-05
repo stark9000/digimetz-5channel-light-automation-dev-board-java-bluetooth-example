@@ -125,7 +125,7 @@ public class about extends javax.swing.JDialog {
     private void jLabel1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel1MouseClicked
         if (Desktop.isDesktopSupported() && Desktop.getDesktop().isSupported(Desktop.Action.BROWSE)) {
             try {
-                Desktop.getDesktop().browse(new URI("https://github.com/wayoda/LedControl"));
+                Desktop.getDesktop().browse(new URI("https://github.com/stark9000/digimetz-5channel-light-automation-dev-board-java-bluetooth-example"));
             } catch (URISyntaxException | IOException ex) {
 
             }
